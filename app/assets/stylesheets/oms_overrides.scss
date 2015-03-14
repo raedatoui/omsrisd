@@ -1,0 +1,23 @@
+.promotion-item {
+  .item-image {
+    float: left;
+    margin-right: 10px;
+  }
+  
+  .item-editor {
+    clear: left;
+  }
+}
+
+.st-block[data-type="code"] .st-text-block {
+  padding: 20px 20px 50px;
+  margin: -20px;
+  font-size: 10pt;
+  font-family: Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+}
+
+.st-block input[type="text"] {
+  border: 2px solid rgba(0,0,0,0.3) !important;
+  color: white !important;
+  margin-bottom: 10px;
+}
