@@ -1,18 +1,9 @@
 require "bundler/vlad"
 require "colorize"
 
-set :application, "ica"
-set :repository, "git@github.com:OtherMeans/ICA.git"
+set :application, "risd"
+set :repository, "git@github.com:raedatoui/omsrisd.git"
 
-# Staging is the default environment
-task :staging do
-  set :domain, "ica-staging"
-  set :deploy_to, "/www/staging.icaphila.org"
-  set :rails_env, "staging"
-  set :revision, "origin/dev"
-  set :bundle_flags, "--deployment" # remove --quiet flag
-  set :unicorn_pid, "#{deploy_to}/current/tmp/pids/unicorn.pid"
-end
 
 task :production do
   set :domain, "root@66.175.208.212"

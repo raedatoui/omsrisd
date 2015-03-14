@@ -31,7 +31,6 @@ public/uploads/*
 .ruby-version
 .rvmrc
 
-config/database.yml
 db/program_images/*
 db/exhibition_images/*
 db/exhibition_images_2/*
