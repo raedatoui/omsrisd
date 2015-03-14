@@ -63,8 +63,7 @@ gem 'underscore-rails', '1.6.0'
 gem 'haml_coffee_assets', '1.16.0'
 
 
-gem 'oms', path: '/Users/raed/Sites/OM/oms'
-#git: 'git@github.com:OtherMeans/oms.git', branch: 'dev'
+gem 'oms', git: 'git@github.com:OtherMeans/oms.git', branch: 'dev'
 gem 'oms-i18n', git: 'git@github.com:OtherMeans/oms-i18n.git'
 
 
