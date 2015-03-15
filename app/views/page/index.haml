@@ -1,5 +1,7 @@
-%h1 Other Means
-%ul
-  - @nodes.each do |node|
-    %li
-      %a{href: "/interests/#{node.id}/#{node.name.parameterize('-')}"}= node.name
+.main
+  %article
+    %section
+      %div.text-columns
+        - @nodes.each do |node|
+          %p
+            %a{href: "/interests/#{node.id}/#{node.name.parameterize('-')}"}= node.name
