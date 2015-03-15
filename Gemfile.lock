@@ -15,7 +15,7 @@ GIT
 
 GIT
   remote: git@github.com:OtherMeans/oms.git
-  revision: 74de1e9cec3e9a3f8dc7356b21731a93278ea47c
+  revision: 62d6fa27ba7c0577c7e9a89906f90f238cf26cae
   branch: dev
   specs:
     oms (0.0.4)
@@ -106,7 +106,7 @@ GEM
     childprocess (0.5.3)
       ffi (~> 1.0, >= 1.0.11)
     chronic (0.10.2)
-    chunky_png (1.3.3)
+    chunky_png (1.3.4)
     coderay (1.1.0)
     coffee-rails (3.2.2)
       coffee-script (>= 2.2.0)
@@ -114,7 +114,7 @@ GEM
     coffee-script (2.3.0)
       coffee-script-source
       execjs
-    coffee-script-source (1.8.0)
+    coffee-script-source (1.9.1)
     color (1.7.1)
     colorize (0.7.3)
     compass (0.12.2)
@@ -265,7 +265,7 @@ GEM
       actionpack (>= 3.2.0)
       activemodel (>= 3.2.0)
       railties (>= 3.2.0)
-    rsolr (1.0.10)
+    rsolr (1.0.12)
       builder (>= 2.1.2)
     rspec (3.0.0)
       rspec-core (~> 3.0.0)

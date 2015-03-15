@@ -1,0 +1,10 @@
+%div
+  %a{href: "/"} x
+
+%div{class: @node.node_type.token}
+%h1= @node.name
+
+%h2 Related Nodes
+%ul
+  - @node.related_nodes.each do |related|
+    %li= related.name

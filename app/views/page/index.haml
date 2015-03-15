@@ -1,7 +1,5 @@
+%h1 Other Means
 %ul
   - @nodes.each do |node|
     %li
-      %p=node.name
-      %ul
-        - node.related_nodes.each do |related|
-          %li= related.name
+      %a{href: "/interests/#{node.id}/#{node.name.parameterize('-')}"}= node.name

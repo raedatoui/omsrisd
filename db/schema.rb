@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140106095800) do
+ActiveRecord::Schema.define(:version => 20150315052115) do
 
   create_table "oms_custom_field_definitions", :force => true do |t|
     t.integer  "node_type_id"
@@ -75,6 +75,7 @@ ActiveRecord::Schema.define(:version => 20140106095800) do
     t.boolean  "attributes_changed"
     t.text     "file_data"
     t.text     "text"
+    t.string   "slug"
   end
 
   add_index "oms_nodes", ["node_type_id"], :name => "index_oms_nodes_on_node_type_id"
