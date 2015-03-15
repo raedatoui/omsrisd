@@ -38,9 +38,9 @@ a.block {
     width: 100%!important
 }
 
-.main .alternate,.main b,.main h1,.main h2,.main h3,.main h4,.main h5,.main h6,.main strong {
-    font-family: 'Euclid Flex',sans-serif
-}
+// .main .alternate,.main b,.main h1,.main h2,.main h3,.main h4,.main h5,.main h6,.main strong {
+//     font-family: 'Euclid Flex',sans-serif
+// }
 
 .main h1,.main h2,.main h3,.main h4,.main h5,.main h6 {
     margin: 1em 0
@@ -50,14 +50,18 @@ a.block {
     background: 0 0!important
 }
 
-.main h1.alternate,.main h2.alternate,.main h3.alternate,.main h4.alternate,.main h5.alternate,.main h6.alternate {
-    font-family: 'Fleischman BT Pro',serif
-}
+// .main h1.alternate,.main h2.alternate,.main h3.alternate,.main h4.alternate,.main h5.alternate,.main h6.alternate {
+//     font-family: 'Fleischman BT Pro',serif
+// }
 
 .main h1 {
     margin-bottom: 1em;
     margin-left: 8.53659%;
-    margin-right: 8.53659%
+    margin-right: 8.53659%;
+}
+
+.main p, .main h1 {
+    font-size: 22pt;
 }
 
 @media (min-width: 768px) {
@@ -164,7 +168,7 @@ a.block {
     top: 0;
     left: -50px;
     width: 50px;
-    font-family: 'Euclid Flex',sans-serif;
+    // font-family: 'Euclid Flex',sans-serif;
     text-align: center
 }
 
@@ -245,7 +249,7 @@ a.block {
 }
 
 .main a.more-link {
-    font-family: 'Euclid Flex',sans-serif;
+    // font-family: 'Euclid Flex',sans-serif;
     background: 0 0!important
 }
 

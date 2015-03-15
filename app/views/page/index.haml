@@ -3,5 +3,5 @@
     %section
       %div.text-columns
         - @nodes.each do |node|
-          %p
+          %p{class: node.node_type.token}
             %a{href: "/interests/#{node.id}/#{node.name.parameterize('-')}"}= node.name
