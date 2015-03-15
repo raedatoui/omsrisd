@@ -4,6 +4,10 @@
 %div{class: @node.node_type.token}
 %h1= @node.name
 
+- if @node.respond_to?(:image)  && @node.image
+  %div
+    %img{src: @node.image[:url]}
+
 %h2 Related Nodes
 %ul
   - @node.related_nodes.each do |related|
