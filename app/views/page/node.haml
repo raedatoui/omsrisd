@@ -7,4 +7,5 @@
 %h2 Related Nodes
 %ul
   - @node.related_nodes.each do |related|
-    %li= related.name
+    %li
+      %a{href: "/#{related.node_type.token}/#{related.id}/#{related.name.parameterize('-')}"}= related.name
