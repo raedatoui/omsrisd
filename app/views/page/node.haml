@@ -1,15 +1,20 @@
-%div
-  %a{href: "/"} x
 
-%div{class: @node.node_type.token}
-%h1= @node.name
+.main
+  %article
+    %section
 
-- if @node.respond_to?(:image)  && @node.image
-  %div
-    %img{src: @node.image[:url]}
+      %div
+        %a{href: "/"}
+          .close
 
-%h2 Related Nodes
-%ul
-  - @node.related_nodes.each do |related|
-    %li
-      %a{href: "/#{related.node_type.token}/#{related.id}/#{related.name.parameterize('-')}"}= related.name
+      -# %div{class: @node.node_type.token}
+      -# %h1= @node.name
+
+      - if @node.respond_to?(:image)  && @node.image
+        %div.img-container
+          %img{src: @node.image[:url]}
+
+      .text-columns
+        - @node.related_nodes.each do |related|
+          %p
+            %a{href: "/#{related.node_type.token}/#{related.id}/#{related.name.parameterize('-')}"}= related.name

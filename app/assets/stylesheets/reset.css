@@ -1,0 +1,100 @@
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+    display: block
+}
+
+ol,ul {
+    list-style: none
+}
+
+blockquote,q {
+    quotes: none
+}
+
+blockquote:after,blockquote:before,q:after,q:before {
+    content: '';
+    content: none
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+*,:after,:before {
+    box-sizing: border-box
+}
+
+html {
+    font-size: 12px;
+    line-height: 1.2em
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size:13px;
+        line-height: 18px
+    }
+}
+
+@media (min-width: 1681px) {
+    html {
+        font-size:17px;
+        line-height: 24px
+    }
+}
+
+body {
+    padding: 50px 24px 24px;
+    background: #000;
+    color: white;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    -webkit-text-size-adjust: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+@media (min-width: 768px) {
+    body {
+        line-height:18px
+    }
+}
+
+@media (min-width: 1024px) {
+    body {
+        padding-top:63px
+    }
+}
+
+@media (min-width: 1681px) {
+    body {
+        padding-top:75px;
+        line-height: 24px
+    }
+}
+
+
+em,i {
+    font-style: italic
+}
+
+audio,img,video {
+    max-width: 100%;
+    height: auto
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    -webkit-transition: color .08s,border-color .08s,-webkit-transform .08s;
+    transition: color .08s,border-color .08s,transform .08s
+}

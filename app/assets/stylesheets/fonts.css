@@ -1,0 +1,43 @@
+/*@font-face {
+    font-family: 'Euclid Flex';
+    src: url(fonts/euc_ft.eot);
+    src: url(fonts/euc_ft.eot?#iefix) format('embedded-opentype'),url(fonts/euc_ft.woff) format('woff');
+    font-weight: 400
+}
+
+@font-face {
+    font-family: 'Euclid Flex';
+    src: url(fonts/euc_ft.eot);
+    src: url(fonts/euc_ft.eot?#iefix) format('embedded-opentype'),url(fonts/euc_ft.woff) format('woff');
+    font-weight: 700
+}
+
+@font-face {
+    font-family: 'Fleischman BT Pro';
+    src: url(fonts/flsws_ft.eot);
+    src: url(fonts/flsws_ft.eot?#iefix) format('embedded-opentype'),url(fonts/flsws_ft.woff) format('woff');
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'Fleischman BT Pro';
+    src: url(fonts/flsws-i_ft.eot);
+    src: url(fonts/flsws-i_ft.eot?#iefix) format('embedded-opentype'),url(fonts/flsws-i_ft.woff) format('woff');
+    font-weight: 400;
+    font-style: italic
+}
+
+body {
+    font-family: 'Euclid Flex',sans-serif;
+}
+
+.main {
+    font-family: 'Fleischman BT Pro',serif
+}
+
+b,strong {
+    font-family: 'Euclid Flex',sans-serif;
+    font-weight: 700
+}
+*/
