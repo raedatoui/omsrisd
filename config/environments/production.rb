@@ -43,7 +43,7 @@ Risd::Application.configure do
   # config.cache_store = :mem_cache_store
 
   # Enable serving of images, stylesheets, and JavaScripts from an asset server
-  config.action_controller.asset_host = "http://66.175.208.212"
+  config.action_controller.asset_host = "http://othermeans.business"
 
   # Precompile additional assets (application.js, application.css, and all non-JS/CSS are already added)
   config.assets.precompile += %w( analytics.js ica/app.js oms_overrides.js ica/light_app.js oms/hours.css oms/hours.js)
