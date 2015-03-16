@@ -34,18 +34,6 @@ a.block {
     clear: both
 }
 
-.main iframe {
-    width: 100%!important
-}
-
-.main h1,.main h2,.main h3,.main h4,.main h5,.main h6 {
-    margin: 1em 0
-}
-
-.main h1 a,.main h2 a,.main h3 a,.main h4 a,.main h5 a,.main h6 a {
-    background: 0 0!important
-}
-
 
 .main h1 {
     margin-bottom: 1em;
@@ -54,7 +42,7 @@ a.block {
 }
 
 .main p, .main h1 {
-    font-size: 22pt;
+    font-size: 26pt;
 }
 
 @media (min-width: 768px) {
@@ -78,23 +66,23 @@ a.block {
     }
 }
 
-.main .centered,.main h1 {
+.main h1 {
     text-align: center
 }
 
 @media (min-width: 768px) {
-    .main .quiet,.main h2,.main h3,.main h4,.main h5,.main h6 {
+    .main h2,.main h3,.main h4,.main h5,.main h6 {
         font-size:.75em;
         line-height: 1.2em
     }
 }
 
-.main ol,.main ol.spaced li,.main p,.main ul,.main ul.spaced li {
+.main p {
     margin-bottom: 1em
 }
 
 @media (max-width: 767px) {
-    .main ol,.main p,.main ul {
+    .main p {
         -webkit-hyphens:auto;
         -moz-hyphens: auto;
         -ms-hyphens: auto;
@@ -102,83 +90,6 @@ a.block {
     }
 }
 
-.main ol li,.main ul li {
-    position: relative;
-    margin-bottom: .5em;
-    margin-left: 8.53659%
-}
-
-.main ol li:last-child,.main ul li:last-child {
-    margin-bottom: 0
-}
-
-@media (min-width: 768px) {
-    .main ol li,.main ul li {
-        margin-left:12.80488%
-    }
-}
-
-.main ul li:before {
-    content: '';
-    display: block;
-    position: absolute;
-    top: 8px;
-    left: -27px;
-    width: 5px;
-    height: 5px;
-    background: #000;
-    border-radius: 10px
-}
-
-@media (min-width: 768px) {
-    .main ul li:before {
-        top:14px;
-        left: -54px;
-        width: 7px;
-        height: 7px
-    }
-}
-
-
-
-.main ul.unstyled li {
-    margin-left: 0;
-    margin-bottom: 0
-}
-
-.main ul.unstyled li:before {
-    display: none
-}
-
-.main ol {
-    counter-reset: li
-}
-
-.main ol li:before {
-    content: counter(li);
-    counter-increment: li;
-    position: absolute;
-    top: 0;
-    left: -50px;
-    width: 50px;
-    text-align: center
-}
-
-@media (min-width: 768px) {
-    .main ol li:before {
-        left:-100px;
-        width: 100px
-    }
-}
-
-.main a {
-    background-image: -webkit-linear-gradient(top,#000 50%,#000 50%);
-    background-image: linear-gradient(to bottom,#000 50%,#000 50%);
-    background-repeat: repeat-x;
-    background-size: 1px 1px;
-    background-position: 0 20px
-}
-
 @media (min-width: 768px) {
     .main a {
         background-position:0 29px
@@ -189,24 +100,10 @@ a.block {
     .main a {
         background-position:0 39px
     }
-}
-
-.main a.block,.main a.no-underline {
-    background: 0 0!important
-}
-
-.main a.more-link {
-    // font-family: 'Euclid Flex',sans-serif;
-    background: 0 0!important
 }
 
 .main a:hover {
     color: #cdcdc6;
-    background-image: -webkit-linear-gradient(top,#cdcdc6 50%,#cdcdc6 50%);
-    background-image: linear-gradient(to bottom,#cdcdc6 50%,#cdcdc6 50%);
-    background-repeat: repeat-x;
-    background-size: 1px 1px;
-    background-position: 0 20px
 }
 
 @media (min-width: 768px) {
@@ -221,17 +118,6 @@ a.block {
     }
 }
 
-.main img.no-spacing {
-    margin: 0 auto .25em
-}
-
-.main .divider {
-    padding-top: 1.4em;
-    margin-bottom: 1.6em;
-    border-top: 3px solid #000;
-    margin-left: 0;
-    margin-right: 0
-}
 
 .main .inline-image-lightbox {
     outline: 0!important
@@ -256,19 +142,6 @@ a.block {
     margin-bottom: 2em
 }
 
-@media (min-width: 768px) {
-    .main article .semi-loud {
-        font-size:1em;
-        line-height: 1.2em
-    }
-}
-
-@media (min-width: 768px) {
-    .main article .loud {
-        font-size:1.5em;
-        line-height: 1.2em
-    }
-}
 
 .main article img {
     margin: 0 auto;
@@ -289,4 +162,12 @@ a.block {
 
 .img-container {
   text-align: center;
+}
+
+footer {
+    position: fixed;
+    z-index: 101;
+    bottom: 1em;
+    width: 100%;
+    margin: auto;
 }

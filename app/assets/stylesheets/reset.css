@@ -95,6 +95,6 @@ audio,img,video {
 a {
     color: white;
     text-decoration: none;
-    -webkit-transition: color .08s,border-color .08s,-webkit-transform .08s;
-    transition: color .08s,border-color .08s,transform .08s
+    -webkit-transition: color .08s ,-webkit-transform .08s;
+    transition: color .08s ,transform .08s;
 }
