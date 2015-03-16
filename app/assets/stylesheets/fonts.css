@@ -22,7 +22,7 @@
     font-style: normal;
 }
 
-body {
+html, body {
     font-family: 'dinameansvertical',sans-serif;
 }
 
@@ -30,15 +30,11 @@ body {
     font-family: 'dinameansvertical',serif
 }
 
-b,strong {
-    font-family: 'dinameansvertical',sans-serif;
-    font-weight: 700
-}
 
 .interests {
     font-family: 'dinameansvertical', sans-serif;
 }
 
 .projects {
-    font-family: 'dinameansregular', sans-serif;
+    font-family: 'dinameanshorizontal', sans-serif;
 }
