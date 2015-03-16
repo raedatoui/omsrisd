@@ -1,0 +1,367 @@
+/*
+ *= require_self
+ *= require_tree .
+*/
+
+.close {
+  background-image: url(close.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  width: 51px;
+  height: 38px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+a.block {
+    display: block
+}
+
+.main {
+    max-width: 2460px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main:after {
+    content: " ";
+    display: block;
+    clear: both
+}
+
+.main iframe {
+    width: 100%!important
+}
+
+// .main .alternate,.main b,.main h1,.main h2,.main h3,.main h4,.main h5,.main h6,.main strong {
+//     font-family: 'Euclid Flex',sans-serif
+// }
+
+.main h1,.main h2,.main h3,.main h4,.main h5,.main h6 {
+    margin: 1em 0
+}
+
+.main h1 a,.main h2 a,.main h3 a,.main h4 a,.main h5 a,.main h6 a {
+    background: 0 0!important
+}
+
+// .main h1.alternate,.main h2.alternate,.main h3.alternate,.main h4.alternate,.main h5.alternate,.main h6.alternate {
+//     font-family: 'Fleischman BT Pro',serif
+// }
+
+.main h1 {
+    margin-bottom: 1em;
+    margin-left: 8.53659%;
+    margin-right: 8.53659%;
+}
+
+.main p, .main h1 {
+    font-size: 22pt;
+}
+
+@media (min-width: 768px) {
+    .main h1 {
+        margin-left:17.07317%;
+        margin-right: 17.07317%
+    }
+}
+
+@media (min-width: 1024px) {
+    .main h1 {
+        margin-left:25.60976%;
+        margin-right: 25.60976%
+    }
+}
+
+@media (min-width: 1681px) {
+    .main h1 {
+        margin-left:34.14634%;
+        margin-right: 34.14634%
+    }
+}
+
+.main .centered,.main h1 {
+    text-align: center
+}
+
+@media (min-width: 768px) {
+    .main .quiet,.main h2,.main h3,.main h4,.main h5,.main h6 {
+        font-size:.75em;
+        line-height: 1.2em
+    }
+}
+
+.main ol,.main ol.spaced li,.main p,.main ul,.main ul.spaced li {
+    margin-bottom: 1em
+}
+
+@media (max-width: 767px) {
+    .main ol,.main p,.main ul {
+        -webkit-hyphens:auto;
+        -moz-hyphens: auto;
+        -ms-hyphens: auto;
+        hyphens: auto
+    }
+}
+
+.main ol li,.main ul li {
+    position: relative;
+    margin-bottom: .5em;
+    margin-left: 8.53659%
+}
+
+.main ol li:last-child,.main ul li:last-child {
+    margin-bottom: 0
+}
+
+@media (min-width: 768px) {
+    .main ol li,.main ul li {
+        margin-left:12.80488%
+    }
+}
+
+.main ul li:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 8px;
+    left: -27px;
+    width: 5px;
+    height: 5px;
+    background: #000;
+    border-radius: 10px
+}
+
+@media (min-width: 768px) {
+    .main ul li:before {
+        top:14px;
+        left: -54px;
+        width: 7px;
+        height: 7px
+    }
+}
+
+
+
+.main ul.unstyled li {
+    margin-left: 0;
+    margin-bottom: 0
+}
+
+.main ul.unstyled li:before {
+    display: none
+}
+
+.main ol {
+    counter-reset: li
+}
+
+.main ol li:before {
+    content: counter(li);
+    counter-increment: li;
+    position: absolute;
+    top: 0;
+    left: -50px;
+    width: 50px;
+    // font-family: 'Euclid Flex',sans-serif;
+    text-align: center
+}
+
+@media (min-width: 768px) {
+    .main ol li:before {
+        left:-100px;
+        width: 100px
+    }
+}
+
+
+
+.main .no-spacing {
+    margin-bottom: 0
+}
+
+.main .alternate a,.main b a,.main strong a {
+    background-size: 1px 2px;
+    background-position: 0 19px
+}
+
+@media (min-width: 768px) {
+    .main .alternate a,.main b a,.main strong a {
+        background-size:1px 3px;
+        background-position: 0 30px
+    }
+}
+
+@media (min-width: 1681px) {
+    .main .alternate a,.main b a,.main strong a {
+        background-position:0 39px
+    }
+}
+
+.main .alternate a:hover,.main b a:hover,.main strong a:hover {
+    background-image: -webkit-linear-gradient(top,#cdcdc6 50%,#cdcdc6 50%);
+    background-image: linear-gradient(to bottom,#cdcdc6 50%,#cdcdc6 50%);
+    background-repeat: repeat-x;
+    background-size: 1px 2px;
+    background-position: 0 19px
+}
+
+@media (min-width: 768px) {
+    .main .alternate a:hover,.main b a:hover,.main strong a:hover {
+        background-size:1px 3px;
+        background-position: 0 30px
+    }
+}
+
+@media (min-width: 1681px) {
+    .main .alternate a:hover,.main b a:hover,.main strong a:hover {
+        background-position:0 39px
+    }
+}
+
+.main a {
+    background-image: -webkit-linear-gradient(top,#000 50%,#000 50%);
+    background-image: linear-gradient(to bottom,#000 50%,#000 50%);
+    background-repeat: repeat-x;
+    background-size: 1px 1px;
+    background-position: 0 20px
+}
+
+@media (min-width: 768px) {
+    .main a {
+        background-position:0 29px
+    }
+}
+
+@media (min-width: 1681px) {
+    .main a {
+        background-position:0 39px
+    }
+}
+
+.main a.block,.main a.no-underline {
+    background: 0 0!important
+}
+
+.main a.more-link {
+    // font-family: 'Euclid Flex',sans-serif;
+    background: 0 0!important
+}
+
+.main a:hover {
+    color: #cdcdc6;
+    background-image: -webkit-linear-gradient(top,#cdcdc6 50%,#cdcdc6 50%);
+    background-image: linear-gradient(to bottom,#cdcdc6 50%,#cdcdc6 50%);
+    background-repeat: repeat-x;
+    background-size: 1px 1px;
+    background-position: 0 20px
+}
+
+@media (min-width: 768px) {
+    .main a:hover {
+        background-position:0 29px
+    }
+}
+
+@media (min-width: 1681px) {
+    .main a:hover {
+        background-position:0 39px
+    }
+}
+
+html.no-touch body.author .main a:hover,html.no-touch body.blog .main a:hover,html.no-touch body.date .main a:hover,html.no-touch body.single-post .main a:hover,html.no-touch body.tag .main a:hover {
+    color: #fff;
+    border-color: #fff;
+    background-image: -webkit-linear-gradient(top,#fff 50%,#fff 50%);
+    background-image: linear-gradient(to bottom,#fff 50%,#fff 50%);
+    background-repeat: repeat-x;
+    background-size: 1px 1px;
+    background-position: 0 20px
+}
+
+@media (min-width: 768px) {
+    html.no-touch body.author .main a:hover,html.no-touch body.blog .main a:hover,html.no-touch body.date .main a:hover,html.no-touch body.single-post .main a:hover,html.no-touch body.tag .main a:hover {
+        background-position:0 29px
+    }
+}
+
+@media (min-width: 1681px) {
+    html.no-touch body.author .main a:hover,html.no-touch body.blog .main a:hover,html.no-touch body.date .main a:hover,html.no-touch body.single-post .main a:hover,html.no-touch body.tag .main a:hover {
+        background-position:0 39px
+    }
+}
+
+
+.main img.no-spacing {
+    margin: 0 auto .25em
+}
+
+.main .divider {
+    padding-top: 1.4em;
+    margin-bottom: 1.6em;
+    border-top: 3px solid #000;
+    margin-left: 0;
+    margin-right: 0
+}
+
+.main .inline-image-lightbox {
+    outline: 0!important
+}
+
+.main article {
+    border-top: 3px solid #000;
+    padding-top: .5em;
+    margin-bottom: 3em;
+    font-size: 1.5em;
+    line-height: 1.2em
+}
+
+@media (min-width: 768px) {
+    .main article {
+        font-size:2em;
+        line-height: 1.2em
+    }
+}
+
+.main article section {
+    margin-bottom: 2em
+}
+
+@media (min-width: 768px) {
+    .main article .semi-loud {
+        font-size:1em;
+        line-height: 1.2em
+    }
+}
+
+@media (min-width: 768px) {
+    .main article .loud {
+        font-size:1.5em;
+        line-height: 1.2em
+    }
+}
+
+.main article img {
+    margin: 1.5em auto
+}
+
+
+@media (min-width: 768px) {
+    .main .text-columns {
+        -webkit-columns:4 200px;
+        -moz-columns: 4 200px;
+        columns: 4 200px;
+        -webkit-column-gap: 1em;
+        -moz-column-gap: 1em;
+        column-gap: 1em
+    }
+}
+
+.img-container {
+  text-align: center;
+}
